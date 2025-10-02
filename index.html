@@ -1,1 +1,118 @@
-<p>Aquí ira la infografía cuando la termine</p>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infografía Interactiva: El Sistema Hombre-Camión</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>EL SISTEMA HOMBRE-CAMIÓN</h1>
+        <p>Una radiografía del transporte público fragmentado en Guadalajara</p>
+    </header>
+
+    <main id="infographic">
+
+        <section id="funcionamiento" class="topic-section">
+            <h2>1. ¿CÓMO FUNCIONA?</h2>
+            <div class="content-grid">
+                <div class="card">
+                    <h3>Modelo Fragmentado</h3>
+                    <p>El servicio público es manejado por ~5,000 particulares. Un "hombre-camión" es un individuo que posee y administra de 1 a 3 autobuses como un negocio personal.</p>
+                </div>
+                <div class="card">
+                    <h3>Sin Coordinación Central</h3>
+                    <p>No existe una entidad que planifique las rutas de forma integral. El resultado: ~200 rutas superpuestas que compiten ferozmente por el pasaje en las mismas calles.</p>
+                </div>
+                <div class="card">
+                    <h3>Negocio vs. Servicio</h3>
+                    <p>La prioridad es la ganancia diaria de cada unidad, no la calidad, seguridad o eficiencia del sistema como un servicio público esencial.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="actores" class="topic-section">
+            <h2>2. LOS ACTORES</h2>
+            <p class="subtitle">Haz clic en un actor para ver sus conflictos y rol en el sistema.</p>
+            <div class="actors-container">
+                <div class="actor" id="actor-operador">
+                    <div class="icon">👤</div>
+                    <h4>Operadores</h4>
+                </div>
+                <div class="actor" id="actor-transportista">
+                    <div class="icon">💼</div>
+                    <h4>Transportistas</h4>
+                </div>
+                <div class="actor" id="actor-usuario">
+                    <div class="icon">🚶</div>
+                    <h4>Usuarios</h4>
+                </div>
+                <div class="actor" id="actor-autoridad">
+                    <div class="icon">🏛️</div>
+                    <h4>Autoridades</h4>
+                </div>
+            </div>
+        </section>
+
+        <section id="conflictos" class="topic-section">
+            <h2>3. EL CONFLICTO: UNA CARRERA VIOLENTA</h2>
+            <div class="timeline">
+                <div class="conflict-point" data-actor="operador">
+                    <h3>La "Guerra del Centavo"</h3>
+                    <p>Los operadores no tienen sueldo fijo; ganan una comisión por boleto vendido. Esto los obliga a competir agresivamente por pasajeros, exceder límites de velocidad y realizar maniobras peligrosas.</p>
+                </div>
+                <div class="conflict-point" data-actor="operador">
+                    <h3>Condiciones Laborales Inhumanas</h3>
+                    <p>Jornadas extenuantes sin horarios fijos para comer o ir al baño, sin seguro social ni prestaciones. El estrés y la presión física son constantes.</p>
+                </div>
+                 <div class="conflict-point" data-actor="usuario">
+                    <h3>Servicio Indigno y Peligroso</h3>
+                    <p>Los usuarios sufren de unidades en mal estado, trato grosero, acoso y un alto riesgo de accidentes. El sistema es inaccesible para personas con discapacidad.</p>
+                </div>
+                <div class="conflict-point" data-actor="autoridad">
+                    <h3>Corrupción y Desregulación</h3>
+                    <p>Las autoridades otorgan permisos y concesiones de forma clientelar y corrupta, sin planeación técnica. La falta de fiscalización genera impunidad.</p>
+                </div>
+                <div class="conflict-point" data-actor="transportista">
+                    <h3>Resistencia al Cambio</h3>
+                    <p>Los dueños de los camiones (transportistas) temen perder su patrimonio y se oponen a modelos de negocio centralizados, perpetuando el sistema fallido por desconfianza en la autoridad.</p>
+                </div>
+                <div class="conflict-point" data-actor="operador">
+                    <h3>Estigmatización y Violencia</h3>
+                    <p>Los operadores son señalados como los únicos culpables del mal servicio, convirtiéndose en víctimas de agresiones e incluso asesinatos en venganza por accidentes.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="soluciones" class="topic-section">
+            <h2>4. ¿QUÉ SOLUCIONES SE PLANTEAN?</h2>
+             <div class="content-grid">
+                <div class="card solution">
+                    <h3>✅ Nuevo Marco Regulatorio</h3>
+                    <p>Crear un órgano público que gestione, planifique y fiscalice el sistema. Las rutas deben responder a las necesidades de la ciudad, no a la competencia.</p>
+                </div>
+                <div class="card solution">
+                    <h3>✅ Dignificación Laboral</h3>
+                    <p>Implementar un salario fijo, prestaciones de ley, horarios justos y capacitación constante para los operadores. Un conductor dignificado ofrece un mejor servicio.</p>
+                </div>
+                <div class="card solution">
+                    <h3>✅ Modelo Ruta-Empresa</h3>
+                    <p>Migrar del "hombre-camión" a un modelo donde empresas gestionen rutas completas. Esto permite la estandarización de la flota, el mantenimiento y un sistema de pago centralizado.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Infografía basada en el documental "EL HOMBRE CAMIÓN" (2015).</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
