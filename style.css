@@ -199,6 +199,41 @@ main {
     color: white;
 }
 
+/* Sección de Documento */
+.document-link-container {
+    text-align: center;
+}
+
+.document-link {
+    display: block;
+    background: #2c3e50;
+    color: #ecf0f1;
+    padding: 2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-left: 5px solid #e67e22;
+}
+
+.document-link:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+    background: #34495e;
+}
+
+.document-link h3 {
+    margin-top: 0;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.document-link p {
+    font-weight: 300;
+    color: #bdc3c7;
+    margin-bottom: 0;
+}
+
+
 /* Footer */
 footer {
     text-align: center;
